@@ -12,8 +12,6 @@ cmd = "movej([0,1.57,-1.57,3.14,-1.57,1.57],a=1.4, v=1.05, t=0, r=0)" + "\n"
 
 s.send(cmd.encode('utf-8'))
 
-data = s.recv(1024)
-
 s.close()
 
 print('Received',repr(data))
