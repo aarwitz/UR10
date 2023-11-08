@@ -1,4 +1,4 @@
-mport socket
+import socket
 
 HOST = "10.5.18.172"
 
